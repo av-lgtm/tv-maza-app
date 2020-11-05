@@ -1,0 +1,108 @@
+
+.App {
+  background-color: #f1f2f4;
+  width: 100%;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #1f2d4a;
+  color: #fff;;
+  padding: 5px 30px;
+}
+
+.App-header h2 {
+  font-size: 1em;
+}
+
+.App-body {
+  background-color: #fff;
+  margin: 30px;
+  padding: 20px;
+}
+
+.search {
+  margin: 20px;
+}
+
+.search input, button {
+  padding: 10px 5px;
+}
+
+.search > input[type="submit"], button {
+  padding: 15px;
+  background-color: #1f2d4a;
+  color: #fff;;
+  border: 1px solid #1f2d4a;
+  width: auto;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.search > input[type="text"] {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search > input[type="text"],
+select {
+  background-color: #f2f3f8;
+  border-color: #f2f3f8;
+}
+
+select {
+  padding: 10px;
+  width: 120px;
+}
+
+.show-list {
+  flex-direction: column;
+}
+
+.show {
+  background-color: #f2f3f8;
+  width: 980px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.show-content {
+  padding-left: 20px;
+}
+
+.show-information {
+  flex-basis: 30%;
+  padding: 30px
+}
+
+.episode-list {
+  display: flex;
+  margin: 20px 1px;
+}
+
+.episode-no {
+  background-color:#1f2d4a;
+  padding: 15px 20px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.episode-list h3, .episode-list p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.border-radius {
+  border-radius: 5px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-details-content {
+  display: flex;
+}
